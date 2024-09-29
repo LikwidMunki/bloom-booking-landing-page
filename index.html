@@ -9,11 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script src="javascript.js" defer></script>
     <title>Bloom Booking Landing Page</title>
-</head>
+</head> 
 <body>
-    <header class="header">
-        <h2 class="header-logo">bloombooking</h2>
-    </header>    
+    <header>
+        <div class="header">
+            <h2 class="header-logo">bloombooking</h2>
+        </div>
+    </header>  
     <div class="container">
         <div class="content">
         <h1>Your clients. Your business. Your way.</h1>
@@ -43,17 +45,19 @@
                         <option value="nails">Nails</option>
                         <option value="massage">Massage</option>
                         <option value="brows">Brows</option>
+                        <option value="aesthetics">Aesthetics</option>
                     </select>
                 <label for="business-type" style="margin-bottom: 10px; margin-top: 10px; font-size:14px;">Do you work for yourself or do you employ staff?</label>
                     <select id="business-type" name="business-type" style="height:30px; border-radius: 5px; border-style:solid; border-color:darkgrey; border-width:2px" >
                         <option value="myself">Myself</option>
                         <option value="employ-staff">Employ Staff</option>
                     </select>
-                <button>Join the Waiting List</button>
+                <div class="button-holder">    
+                    <button>Join the Waiting List</button>
+                </div>
             </div>
             <p>*Your details will not be used for any other purpose than to gauge interest and won't be shared with any third party</p>
         </div>
     </div>
-    
 </body>
 </html>
