@@ -124,3 +124,12 @@ button:hover {
     background-color: white;
     color: #3f704d;
 }
+
+@media only screen and (max-width: 600px) {
+    div.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+}
