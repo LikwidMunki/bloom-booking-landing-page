@@ -1,62 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCJ9DHDVGJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TCJ9DHDVGJ');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="javascript.js" defer></script>
-    <title>Bloom Booking Landing Page</title>
+    <title>Bookamour Waiting List</title>
 </head> 
 <body>
-    <header>
+    <header> 
         <div class="header">
-            <h2 class="header-logo">bloombooking</h2>
+            <h2 class="header-logo">bookamour</h2>
         </div>
     </header>  
     <div class="container">
         <div class="content">
         <h1>Your clients. Your business. Your way.</h1>
-        <p> We believe the cost of running your business should be predictable and transparent, allowing you to focus on delivering excellent customer service. 
-            <br>
-            <br>
-            Which is why we are looking to create you a client booking system with no transaction fees and a flat rate.
-            <br>
-            <br>
-            Sign up to be on the waiting list for a new system that allows you to manage your clients and your business with no transaction fees.</p>
-            <img src="./images/Content-Image.jpeg">
+        <h2>Introducing bookamour, the client booking system that puts you in control.</h2>
+        <p>Bookamour is here to change the game.  Our <b>new client booking system</b> offers predictable, transparent pricing with a flat monthly fee. 
+            <br><br><i>
+            No more hidden costs.
+            <br><br>
+            No more transaction fees.
+            <br><br>
+            No more surprises.
+            </i><br><br>
+            Spend less time worrying about admin and more time delivering exceptional customer service. With predictable pricing, you can budget with confidence and focus on growing your business.
+            <br><br>
+            <i>What do you think?</i>
+            <br><br>
+            <b>Sign up</b> for the bookamour waiting list and be the first to know when we launch!
+        </p>
+            <img src="https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
         </div>
         <div class="form-container">
             <h3>Join the Waiting List</h3>
             <div class="form">
-                <label for="fname" class="required" style="margin-bottom: 10px; font-size:14px">First name:</label>
-                    <input type="text" id="fname" name="fname">
-                <label for="lname" class="required" style="margin-bottom: 10px; margin-top: 10px; font-size:14px">Last name:</label>
-                    <input type="text" id="lname" name="lname">
-                <label for="email" class="required" style="margin-bottom: 10px; margin-top: 10px;font-size:14px">Email:</label>
-                    <input type="email" id="email" name="email">
-                <label for="business" style="margin-bottom: 10px; margin-top: 10px; font-size:14px">Business Name:</label>
-                    <input type="text" id="business" name="business">
-                <label for="specialism" class="required" style="margin-bottom: 10px; margin-top: 10px; font-size:14px;">What do you specialise in?</label>
-                    <select id="specialism" name="specialism" style="height:30px; border-radius: 5px; border-style:solid; border-color:darkgrey; border-width:2px" >
-                        <option value="haridressing">Hairdressing</option>
-                        <option value="nails">Nails</option>
-                        <option value="massage">Massage</option>
-                        <option value="brows">Brows</option>
-                        <option value="aesthetics">Aesthetics</option>
-                    </select>
-                <label for="business-type" style="margin-bottom: 10px; margin-top: 10px; font-size:14px;">Do you work for yourself or do you employ staff?</label>
-                    <select id="business-type" name="business-type" style="height:30px; border-radius: 5px; border-style:solid; border-color:darkgrey; border-width:2px" >
-                        <option value="myself">Myself</option>
-                        <option value="employ-staff">Employ Staff</option>
-                    </select>
-                <div class="button-holder">    
-                    <button>Join the Waiting List</button>
+                <form method="post" id="my-form" action="https://script.google.com/macros/s/AKfycbwnOdCEpEpNnmZGeOgAa1otcaunbSps_bpjX_pTql-nf3bSMCtC9nYP4w79_qugNiNLwg/exec">
+                    <label for="fname" class="required" style="margin-bottom: 10px; font-size:14px">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    <label for="lname" class="required" style="margin-bottom: 10px; margin-top: 10px; font-size:14px">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    <label for="email" class="required" style="margin-bottom: 10px; margin-top: 10px;font-size:14px">Email:</label>
+                        <input type="email" id="email" name="email">
+                    <label for="business" style="margin-bottom: 10px; margin-top: 10px; font-size:14px">Business Name:</label>
+                        <input type="text" id="business" name="business">
+                    <label for="specialism" class="required" style="margin-bottom: 10px; margin-top: 10px; font-size:14px;">What do you specialise in?</label>
+                        <select id="specialism" name="specialism" style="height:30px; border-radius: 5px; border-style:solid; border-color:darkgrey; border-width:2px" >
+                            <option value="hairstyling">Hairstyling</option>
+                            <option value="nails">Nails</option>
+                            <option value="massage">Massage</option>
+                            <option value="brows-and-lashes">Brows and Lashes</option>
+                            <option value="tattoo-and-piercing">Tattoo and Piercing</option>
+                            <option value="fillers">Fillers</option>
+                            <option value="facials-and-skincare">Facials and Skincare</option>
+                            <option value="barbering">Barbering</option>
+                            <option value="personal-training">Personal Training</option>
+                        </select>
+                    <label for="business-type" style="margin-bottom: 10px; margin-top: 10px; font-size:14px;">Do you work for yourself or do you employ staff?</label>
+                        <select id="business-type" name="business-type" style="height:30px; border-radius: 5px; border-style:solid; border-color:darkgrey; border-width:2px" >
+                            <option value="myself">Myself</option>
+                            <option value="employ-staff">Employ Staff</option>
+                        </select>
+                    <div class="button-holder">    
+                        <button type="submit">Join Waiting List</button>
+                </form>
                 </div>
             </div>
-            <p>*Your details will not be used for any other purpose than to gauge interest and won't be shared with any third party</p>
+            <p>*Your details will not be used for any other purpose than to gauge interest for a new client management system and won't be shared with any third party</p>
         </div>
     </div>
 </body>
